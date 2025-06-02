@@ -1,0 +1,161 @@
+[PROJECT]
+
+[RP:CGE_MODEL_THREE_GOODS]
+1=
+
+[RP:CGE_MODEL_ONE_COMMODITY]
+1=
+
+[RP:PEM_RICE_ASSIGNMENT4]
+1=
+
+[RP:CAMCGE]
+1=
+
+[RP:PEM_RICE]
+1=
+
+[RP:PEM_RICE_ASSIGNMENT2]
+1=
+
+[RP:PEM_RICE_ASSIGNMENT3]
+1=
+
+[RP:GDXXRWEXAMPLE5]
+1=
+
+[RP:HH_MODEL_SIMPLE]
+1=
+
+[RP:POVERTY_RWA_LOAD_DATA]
+1=
+
+[RP:POVERTY_RWA_FOC]
+1=
+
+[RP:LOAD_POVRATE]
+1=
+
+[RP:POVLINEVALUE_RWA]
+1=
+
+[RP:TEST_CODE]
+1=
+
+[RP:EGY_P18_2GAMS]
+1=
+
+[GDXDISP: COUNTRY Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+SqTrail0=0
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EMISSIONSSOURCE Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+SqTrail0=0
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: ghg Par 5]
+PlaneDim=0
+RowDim=5
+Squeeze=1
+SqTrail0=0
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: GHGTYPE Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+SqTrail0=0
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: INDEX Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+SqTrail0=0
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: SECTOR Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+SqTrail0=0
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: YEAR Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+SqTrail0=0
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: indexvalue Par 5]
+PlaneDim=0
+RowDim=5
+Squeeze=1
+SqTrail0=0
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: VALUE Par 5]
+PlaneDim=0
+RowDim=5
+Squeeze=1
+SqTrail0=0
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+PlaneFilter1=2015
+
+[RP:FERTILIZER]
+1=
+
+[RP:EMISSION_DATA]
+1=gdx=test
+2=gdx=test;
+3=gdx
+
+[RP:UNTITLED_1]
+1=
+
+[MRUFILES]
+1=C:\Users\AMAMUN\OneDrive - CGIAR\Documents\GHG\Untitled_1.gms
+2=C:\Users\AMAMUN\OneDrive - CGIAR\Documents\Emission_Database\Emission_Data.gms
+3=C:\Users\AMAMUN\Documents\World Bank Project\Emissions_Data\test;.gdx
+4=C:\Users\AMAMUN\Documents\TrainingAbdullah\Test_Code.gms
+5=C:\Users\AMAMUN\Documents\TrainingAbdullah\PovLineValue_RWA.gms
+6=C:\Users\AMAMUN\Documents\TrainingAbdullah\LOAD_POVRATE.gms
+7=C:\Users\AMAMUN\Documents\TrainingAbdullah\Poverty_RWA_FOC.gms
+8=C:\Users\AMAMUN\Documents\TrainingAbdullah\Poverty_RWA_LOAD_DATA.gms
+9=C:\Users\AMAMUN\Documents\TrainingAbdullah\HH_model_simple.gms
+
+[OPENWINDOW_1]
+FILE0=C:\Users\AMAMUN\OneDrive - CGIAR\Documents\GHG\Emission_Data.gms
+FILE1=C:\Users\AMAMUN\OneDrive - CGIAR\Documents\GHG\Emission_Data.lst
+FILE2=C:\Users\AMAMUN\OneDrive - CGIAR\Documents\GHG\test.gdx
+FILE3=C:\Users\AMAMUN\OneDrive - CGIAR\Documents\GHG\test.gdx
+MAXIM=1
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=400
